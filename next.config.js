@@ -76,6 +76,7 @@ module.exports = () => {
         {
           protocol: 'https',
           hostname: 'picsum.photos',
+          hostname: 'firebasestorage.googleapis.com',
         },
       ],
       unoptimized,
