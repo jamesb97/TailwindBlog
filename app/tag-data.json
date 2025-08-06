@@ -1,10 +1,11 @@
 {
+  "intelligence": 1,
+  "ai": 5,
   "asp": 1,
   "programming": 1,
   "evs": 1,
   "autonomous": 1,
   "iot": 2,
-  "ai": 4,
   "biomedical": 1,
   "ctscanner": 2,
   "bitcoin": 2,
