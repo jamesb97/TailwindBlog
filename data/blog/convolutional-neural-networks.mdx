@@ -1,0 +1,55 @@
+---
+title: Convolutional Neural Networks
+date: '2025-10-29'
+tags: ['intelligence', 'AI']
+draft: false
+summary: Convolutional neural networks also known as shift variants or space invariant artificial neural networks, are based on the shared-weight architecture of the convolutional kernels in providing translation-equivariant responses known as feature maps.
+authors: ['default']
+---
+
+#### Convolutional Neural Networks Overview
+
+A convolutional neural network or CNN for short is a type of neural network that learns features via a filter or kernel optimization. It is a type of deep learning network in which can make predictions either from text, images, or audio.
+Convolutional Neural Networks are also known as space invariant artificial neural networks due to their shared-weight architecture from the convolution kernels or filters that slide along input features.
+CNNs were actually inspired by biological processes where the connectivity pattern between the neurons resembles the organization of the animal visual cortex.
+A convolutional neural network consists of an input layer, hidden layer(s), and an output layer. The hidden layer mostly consists of more than one layer in which tends to perform the convolutions.
+This would be an example of a CNN structure: Input → [Conv → ReLU → Pool] × N → Flatten → [FC → ReLU] × M → Softmax → Output
+
+#### Core Idea
+
+The core idea of a convolutional neural network is to use convolutional layers that apply a convolution operation to the input, passing the result to the next layer. This allows the network to learn spatial hierarchies of features, making it particularly effective for image and video recognition tasks.
+CNNs are designed to automatically and adaptively learn spatial hierarchies of features from input data. This is achieved through the use of multiple layers, including convolutional layers, pooling layers, and fully connected layers.
+
+#### Key Components of CNNs
+
+1. **Convolutional Layers**: These layers apply a set of learnable filters to the input data, producing feature maps that capture local patterns.
+2. **Pooling Layers**: These layers reduce the spatial dimensions of the feature maps, helping to decrease computational load and control overfitting.
+3. **Activation Functions**: Non-linear functions like ReLU (Rectified Linear Unit)
+   are applied after convolutional layers to introduce non-linearity into the model.
+4. **Fully Connected Layers**: These layers connect every neuron in one layer to every neuron
+   in the next layer, typically used at the end of the network for classification tasks.
+
+#### Applications of CNNs
+
+CNNs have been widely used in various applications, including:
+
+- Image and video recognition
+- Object detection
+- Natural language processing
+- Medical image analysis
+- Autonomous vehicles
+
+#### Advantages of CNNs
+
+- **Automatic Feature Extraction**: CNNs can automatically learn relevant features from raw input data,
+  eliminating the need for manual feature engineering.
+- **Spatial Hierarchies**: CNNs can capture spatial hierarchies of features,
+  making them effective for image and video data.
+- **Parameter Sharing**: The use of shared weights in convolutional layers reduces the number of
+  parameters, making CNNs more efficient than fully connected networks.
+
+#### Conclusion
+
+Convolutional Neural Networks have revolutionized the field of deep learning, particularly in image and video
+recognition tasks. Their ability to automatically learn features and capture spatial hierarchies has made them a powerful tool in various applications across different domains.
+Learn more about CNNs [here](https://grokipedia.com/page/Convolutional_neural_network#convolutional-neural-network).
