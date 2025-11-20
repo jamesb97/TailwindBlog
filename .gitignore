@@ -45,3 +45,5 @@ yarn-error.log*
 
 # Contentlayer
 .contentlayer
+
+/public/image-recognition.html
